@@ -66,11 +66,7 @@ CONFIG_PACKAGE_luci-app-turboacc=y
 CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_flow-offload=y
 CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_bbr-cca=y
 CONFIG_PACKAGE_luci-i18n-turboacc-zh-cn=y
-CONFIG_PACKAGE_luci-app-bypass=y
-CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Shadowsocks=y
-CONFIG_PACKAGE_luci-app-bypass_INCLUDE_V2ray_plugin=y
-CONFIG_PACKAGE_luci-app-bypass_INCLUDE_V2ray=y
-CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Xray=y
+CONFIG_PACKAGE_luci-app-vssr=y
 EOF
 
 # 常用软件 默认已启用
