@@ -67,6 +67,7 @@ CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_flow-offload=y
 CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_bbr-cca=y
 CONFIG_PACKAGE_luci-i18n-turboacc-zh-cn=y
 CONFIG_PACKAGE_luci-app-vssr=y
+CONFIG_PACKAGE_luci-app-ssr-plus=y
 EOF
 
 # 常用软件 默认已启用
@@ -80,4 +81,3 @@ EOF
 #EOF
 
 # 其它
-sed -i '21d' package/lean/default-settings/files/zzz-default-settings #禁止网络共享分类到NAS
