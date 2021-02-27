@@ -61,11 +61,11 @@ CONFIG_PACKAGE_ffprobe=y
 EOF
 
 cat >> .config <<EOF
+CONFIG_PACKAGE_luci-app-adbyby-plus=y
+CONFIG_PACKAGE_luci-app-turboacc=y
+CONFIG_PACKAGE_luci-app-ssr-plus=y
 CONFIG_PACKAGE_luci-app-openclash=y
 CONFIG_PACKAGE_luci-app-vssr=y
-CONFIG_PACKAGE_luci-app-vlmcsd=y
-CONFIG_PACKAGE_luci-app-qosv4=y
-
 EOF
 
 # 常用软件 默认已启用
